@@ -15,7 +15,7 @@ void duplicate(int *a, int s) {
     }
 }
 
-void main() {
+int main() {
     int arr[10];
     for (int i = 0; i < 10; i++) {
         scanf("%d", &arr[i]);
@@ -25,4 +25,5 @@ void main() {
         printf("%d ", arr[i]);
     }
     printf("\n");
+    return 0;
 }
