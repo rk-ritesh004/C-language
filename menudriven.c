@@ -1,6 +1,7 @@
 #include<stdio.h>
 void input(int A[10][10],int r,int c){
     int i,j;
+    printf("Enter elements of matrix:\n");
     for(i = 0;i<r;i++){
         for(j = 0;j<c;j++){
             scanf("%d",&A[i][j]);
